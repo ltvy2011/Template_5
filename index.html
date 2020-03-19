@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=vietnamese" rel="stylesheet">    <link rel="stylesheet" href="/assests/css/base.css">
+    <link rel="stylesheet" href="/assests/css/main.css">
+    <link rel="stylesheet" href="/assests/css/responsive.css">
+    <link rel="stylesheet" href="/assests/fonts/fontawesome-free-5.12.1-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="header_left">
+            <div class="header_logo c-0">
+                <i class="fa fa-home"></i>
+                <h3>Logo</h3>
+            </div>
+            <div>
+                <ul class="header_icon_list">
+                    <li class="header_icon_item">
+                        <i class="fa fa-globe"></i>
+                    </li>
+                    <li class="header_icon_item">
+                        <i class="fa fa-user"></i>
+                    </li>
+                    <li class="header_icon_item">
+                        <i class="fa fa-envelope"></i>
+                    </li>
+                    <li class="header_icon_item notify--hover">
+                        <i class="fa fa-bell"></i>
+                        <div class="notify_count">
+                            3
+                        </div>
+                        <div class="notify_wrap">
+                            <ul>
+                                <li class="notify_item">
+                                    <a href="" class="notify_item_link">
+                                        One new friend request
+                                    </a>
+                                </li>
+                                <li class="notify_item">
+                                    <a href="" class="notify_item_link">
+                                        One new friend request
+                                    </a>
+                                </li>
+                                <li class="notify_item">
+                                    <a href="" class="notify_item_link">
+                                        One new friend request
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_right">
+            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="">
+        </div>
+    </nav>
+    <div class="app_container">
+        <div class="grid">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-3 m-3 c-0">
+                        <div class="user_info">
+                            <div class="my_profile">
+                                My Profile
+                                <img src="https://www.w3schools.com/w3images/avatar3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-pencil-alt"></i>
+                                        Designer, UI
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-home"></i>
+                                        London, UK
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-birthday-cake"></i>
+                                        April 1, 1988
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="groups-wrap">
+                            <ul class="groups-list">
+                                <li class="groups_item">
+                                    <a onclick="item_show('item1')" class="groups">
+                                        <i class="fas fa-circle-notch"></i>
+                                        My Groups
+                                    </a>
+                                    <ul id="item1" class="none">
+                                        <li class="item__link">
+                                            <span>Some Groups...</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="groups_item">
+                                    <a onclick="item_show('item2')" class="groups">
+                                        <i class="far fa-calendar-check"></i>
+                                        My Events
+                                    </a>
+                                    <ul id="item2" class="none">
+                                        <li class="item__link">
+                                            <span>Some Events...</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="groups_item">
+                                    <a onclick="item_show('item3')" class="groups">
+                                        <i class="fas fa-users"></i>
+                                        My Photos
+                                    </a>
+                                    <ul id="item3" class="none item3_wrap">
+                                        <li class="row sm-gutter">
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="interests">
+                            <h2>Interests</h2>
+                            <div class="interests_info">
+                                <p>News</p>
+                                <p>W3schools</p>
+                                <p>Labels</p>
+                                <p>Games</p>
+                                <p>Friends</p>
+                                <p>Games</p>
+                                <p>Friends</p>
+                                <p>Food</p>
+                                <p>Design</p>
+                                <p>Art</p>
+                                <p>Photos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-7">
+                        <div class="content">
+                            <div class="post_status">
+                                <span>Social Media template by w3.css</span>
+                                <input type="text" placeholder="What're you feeling?">
+                                <button class="btn btn_post">
+                                    <i class="fas fa-pencil-alt"></i>
+                                    Post
+                                </button>
+                            </div>
+                            <div class="newsfeed_wrap">
+                                <div class="status">
+                                    <div class="author">
+                                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="">
+                                        <p>John Doe</p>
+                                    </div>
+                                    <div class="time_post">
+                                        <p>1 min</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="status_info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <div class="status_img">
+                                        <div class="row">
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/nature.jpg" alt="" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn_reaction">
+                                    <button onclick="btn_active('0')" class="btn btn_like">
+                                        <i id="0" class="fas fa-thumbs-up"></i>
+                                        Like
+                                    </button>
+                                    <button onclick="cmt_active('cmt_0')" class="btn btn_comment">
+                                        <i class="far fa-comment"></i>
+                                        Comment
+                                    </button>
+                                    <div id="cmt_0" class="comment_wrap">
+                                        <div class="comment">
+                                            <div class="user_cmt">
+                                                <img src="https://www.w3schools.com/w3images/avatar3.png" alt="">
+                                            </div>
+                                            <div class="cmt_box">
+                                                <span class="user_name">
+                                                    Nguyễn Khắc Bảo Trung
+                                                </span>
+                                                <span class="cmt_info">
+                                                    AbcXyz Tùng đẹp trai!!!!
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="cmt_input">
+                                            <div class="my_avt">
+                                                <img src="https://www.w3schools.com/w3images/avatar3.png" alt="">
+                                            </div>
+                                            <div class="cmt_input_wrap">
+                                                <input type="text" placeholder="Comment" class="my_comment">
+                                                <button class="post_cmt">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="newsfeed_wrap">
+                                <div class="status">
+                                    <div class="author">
+                                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="">
+                                        <p>John Doe</p>
+                                    </div>
+                                    <div class="time_post">
+                                        <p>1 min</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="status_info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <div class="status_img">
+                                        <div class="row">
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/nature.jpg" alt="" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn_reaction">
+                                    <button onclick="btn_active('1')" class="btn btn_like">
+                                        <i id="1" class="fas fa-thumbs-up"></i>
+                                        Like
+                                    </button>
+                                    <button class="btn btn_comment">
+                                        <i class="far fa-comment"></i>
+                                        Comment
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="newsfeed_wrap">
+                                <div class="status">
+                                    <div class="author">
+                                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="">
+                                        <p>John Doe</p>
+                                    </div>
+                                    <div class="time_post">
+                                        <p>1 min</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="status_info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                    <div class="status_img">
+                                        <div class="row">
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col l-6 c-6">
+                                                <img src="https://www.w3schools.com/w3images/nature.jpg" alt="" width="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn_reaction">
+                                    <button onclick="btn_active('2')" class="btn btn_like">
+                                        <i id="2" class="fas fa-thumbs-up"></i>
+                                        Like
+                                    </button>
+                                    <button class="btn btn_comment">
+                                        <i class="far fa-comment"></i>
+                                        Comment
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-2 c-0">
+                        <div class="left_wrap">
+                            <div class="new-event border_wrap">
+                                <p>Upcoming Events:</p>
+                                <img src="https://www.w3schools.com/w3images/forest.jpg" alt="">
+                                <p>Holiday</p>
+                                <p>Friday 15:00</p>
+                                <a href="" class="event-info">Info</a>
+                            </div>
+                            <div class="friend-request border_wrap">
+                                <p>Friend Request</p>
+                                <img src="https://www.w3schools.com/w3images/avatar6.png" alt="">
+                                <p>Jane Doe</p>
+                                <div class="request--action">
+                                    <a href="" class="btn_action accept">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                    <a href="" class="btn_action decline">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ads border_wrap">
+                                ADS
+                            </div>
+                            <div class="report-bug border_wrap">
+                                <i class="fas fa-bug" style="font-size: 3rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assests/js/index.js"></script>
+</body>
+</html>
